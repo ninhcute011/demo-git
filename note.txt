@@ -7,3 +7,4 @@ Kiểm tra trạng thái source: git status
 commit những thay đổi (staging area=>local repository): git commit -m "message"
 Lần đầu chạy cần config
 - đẩy code lên trên server: git push -u origin master
+- tạo 1 branch mới: git branch -b branch-name
