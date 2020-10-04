@@ -1,0 +1,9 @@
+Khởi tạo git: git init
+Kết nối project với repo: git remote add origin url-repo
+
+Kiểm tra trạng thái source: git status
++file màu đỏ: file đã thay đổi chưa được save(working copy)
++file màu xanh: file đã thay đổi và được save(staging area)
+commit những thay đổi (staging area=>local repository): git commit -m "message"
+Lần đầu chạy cần config
+- đẩy code lên trên server: git push -u origin master
